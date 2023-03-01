@@ -1,2 +1,1 @@
-# bobs
-Byte-Oriented Binary Search
+# Byte-Oriented Binary Search
