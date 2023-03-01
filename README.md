@@ -4,7 +4,7 @@ This is an algorithm designed to search a value inside a huge file. Instead of l
 
 Because dividing a file in half will not give the middle element (Rather the middle byte), it's necessary to first determine the full information of the element. Because we're dealing with pointers to raw data, the pointer moves backwards and forwards searching a delimiter, this specific program assumes that the delimiter between values is a `newline` (Either `\n` or `\r\n`), that way we can read entire lines from the current pointer to the rightmost `newline`.
 
-The example below demonstrates the line-completion algorithm with lines formatted in a `value:key` fashion.
+The example below demonstrates the line-completion algorithm with lines formatted in a `key:value` fashion.
 
 ![](./assets/completeLine.gif)
 
